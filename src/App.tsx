@@ -81,7 +81,7 @@ function App() {
                sm1:border-white sm1:border-opacity-20 sm1:py-2 sm1:text-mex sm1:text-opacity-100 sm2:text-mexl
                 ${
                   currentSection === "overview"
-                    ? `${colorClasses[color]}`
+                    ? `${colorClasses[color]} text-opacity-100`
                     : "sm1:hover:bg-hover-gray"
                 }  
                 `}
@@ -98,7 +98,7 @@ function App() {
                 sm1:border-white sm1:border-opacity-20 sm1:py-2 sm1:text-mex sm1:text-opacity-100 sm2:text-mexl
                 ${
                   currentSection === "structure"
-                    ? `${colorClasses[color]}`
+                    ? `${colorClasses[color]} text-opacity-100`
                     : "sm1:hover:bg-hover-gray"
                 }`}
             >
@@ -115,7 +115,7 @@ function App() {
                  sm1:border-white sm1:border-opacity-20 sm1:py-2 sm1:text-mex sm1:text-opacity-100 sm2:text-mexl 
                  ${
                    currentSection === "surface"
-                     ? `${colorClasses[color]}`
+                     ? `${colorClasses[color]} text-opacity-100`
                      : "sm1:hover:bg-hover-gray"
                  }`}
             >
