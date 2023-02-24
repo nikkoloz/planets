@@ -53,6 +53,7 @@ function App() {
     });
     setCurrentSection("overview");
   }, [currentPlanet]);
+
   return (
     <section className="relative z-0 mb-10 text-white">
       <img
@@ -130,9 +131,7 @@ function App() {
                        sm2:mr-20 sm2:h-[624px] sm2:w-1/2  sm3:h-[754px]"
           >
             <img
-              src={
-                "./src" + currentPlanetData.images[currentSectionImg].slice(1)
-              }
+              src={currentPlanetData.images[currentSectionImg].slice(1)}
               alt="img"
               className="my-0 mx-auto block h-auto scale-[0.4] sm1:scale-[0.63] sm2:scale-[0.8] sm3:scale-100"
             />
