@@ -46,6 +46,8 @@ function App() {
       if (
         planet.name.toLocaleLowerCase() === currentPlanet.toLocaleLowerCase()
       ) {
+        setContent(planet.overview.content);
+        setSource(planet.overview.source);
         setCurrentPlanetData(planet);
         setColor(`${planet.name.toLowerCase()}`);
         return;
