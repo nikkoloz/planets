@@ -97,7 +97,7 @@ module.exports = {
     lineHeight: '31px',
     fontWeight: '400',
    }],
-   'nuxl': ['40px', {
+   'nuxl': ['37px', {
     letterSpacing: '-1.5px',
     lineHeight: '51px',
     fontWeight: '400',
@@ -105,8 +105,6 @@ module.exports = {
    'tst': ['40px', {
     fontFamily: '"Antonio",sans-serif',
    }],
-  },
-  lineHeight: {
   },
   screens: {
    'sm1': '768px',
@@ -122,15 +120,15 @@ module.exports = {
     'main-blue': '#070724',
     'gray': '#38384F',
     'gray-light': '#838391',
-    'mer': '#DEF4FC',
-    'ven': '#F7CC7F',
-    'mar': '#FF6A45',
-    'ear': '#545BFE',
-    'jup': '#ECAD7A',
-    'sat': '#FCCB6B',
-    'ura': '#65F0D5',
-    'nep': '#497EFA',
-
+    'hover-gray': '#D8D8D8',
+    'mercury': '#419EBB',
+    'venus': '#F7CC7F',
+    'earth': '#545BFE',
+    'mars': '#FF6A45',
+    'jupiter': '#ECAD7A',
+    'saturn': '#FCCB6B',
+    'uranus': '#65F0D5',
+    'neptune': '#497EFA',
    },
   },
  },
